@@ -9,7 +9,7 @@ private:
 	int arraySize;
 public:
 	ArrayTest(int size, double value);
-	ArrayTest(ArrayTest &);
+	ArrayTest(const ArrayTest &);
 	void print() const;
 	void setValue(double value);
 

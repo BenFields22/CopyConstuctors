@@ -14,7 +14,7 @@ ArrayTest::ArrayTest(int size, double value)
 		aptr[i] = value;
 	}
 };
-ArrayTest::ArrayTest(ArrayTest &obj)
+ArrayTest::ArrayTest(const ArrayTest &obj)
 {
 	arraySize = obj.arraySize;
 	aptr = new double[arraySize];
