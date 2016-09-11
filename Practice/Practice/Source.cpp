@@ -20,6 +20,8 @@ int main()
 	cout << "\n\nPrinting second array" << endl;
 	second.print();
 
+	cout<<"This is a comment that was added from git by command line"<<endl;
+
 	system("PAUSE");
 	return 0;
 }
